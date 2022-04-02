@@ -5,7 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        header{
+            text-align: center;
+        }
+
+        form{
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        table{
+            margin: 0 auto;
+        }
+
+        td{
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <header><h1>Formulário | Login</h1></header>
@@ -14,13 +31,13 @@
             <tr>
                 <td>
                     <label for="">Email</label>
-                    <input type="text" placeholder="email">
+                    <input type="email" placeholder="email" required="true">
                 </td>
             </tr>
             <tr>
                 <td>
                     <label for="">Senha</label>
-                    <input type="password" placeholder="senha">
+                    <input type="password" placeholder="senha" required="true">
                 </td>
             </tr>
         </table>

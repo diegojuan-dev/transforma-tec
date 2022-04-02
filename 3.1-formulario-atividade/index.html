@@ -5,21 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
-    <link rel="stylesheet" href="src/css/style.css">
+    <style>
+        header{
+            text-align: center;
+        }
+
+        form{
+            text-align: center;
+            padding: 50px;
+        }
+    </style>
 </head>
 <body>
     <header><h1>Formulário | Novo Usuário</h1></header>
+
     <form action="src/paginas/login.html">
         <label for="">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="text" placeholder="email"><br><br>
+        <input type="text" placeholder="email" required="true"><br><br>
 
         <label for="">Senha</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="password" placeholder="senha"><br><br>
+        <input type="password" placeholder="senha" required="true"><br><br>
 
         <label for="">Confirmar Senha</label>&nbsp;&nbsp;
-        <input type="password" placeholder="confirmar senha"><br><br><br>
+        <input type="password" placeholder="confirmar senha" required="true"><br><br><br>
 
         <button type="submit">Confirmar</button>
+        
     </form>
 </body>
 </html>
